@@ -14,6 +14,9 @@
 
 ### 서버 실행 명령어
 ```
+# 깃 허브에서 소스코드를 다운로드 받습니다.
+git clone https://github.com/ndb796/Vegita.git
+
 # 플라스크 웹 서버 폴더로 이동합니다.
 cd "Flask Web Server"
 
