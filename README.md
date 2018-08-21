@@ -17,6 +17,9 @@
 # 깃 허브에서 소스코드를 다운로드 받습니다.
 git clone https://github.com/ndb796/Vegita.git
 
+# 받은 프로젝트 폴더로 이동합니다.
+cd Vegita
+
 # 플라스크 웹 서버 폴더로 이동합니다.
 cd "Flask Web Server"
 
@@ -26,7 +29,7 @@ python server.py
 
 ### 파이썬 데이터 학습 모델 생성 명령어
 ```
-# 파이썬 폴더로 이동합니다.
+# 프로젝트 폴더에서 파이썬 폴더로 이동합니다.
 cd "Python Software"
 
 # 엑셀(Excel) 파일로 학습을 수행합니다.
