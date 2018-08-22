@@ -46,4 +46,3 @@ python "predict test.py"
 
 # 이후에 생성된 모델 파일을 웹 서버의 model 폴더에 붙여넣기 하면 적용됩니다.
 ```
-Web Site: http://vegita.run.goorm.io/
