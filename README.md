@@ -1,47 +1,48 @@
-### ¹èÃß °¡°Ý ¿¹Ãø ÀÎ°øÁö´É ¼ÒÇÁÆ®¿þ¾î
-¹èÃß °¡°ÝÀ» ¿¹ÃøÇÏ´Â ÀÎ°øÁö´É ¼ÒÇÁÆ®¿þ¾îÀÔ´Ï´Ù.
+### ë°°ì¶” ê°€ê²© ì˜ˆì¸¡ ì¸ê³µì§€ëŠ¥ ì†Œí”„íŠ¸ì›¨ì–´
+ë°°ì¶” ê°€ê²©ì„ ì˜ˆì¸¡í•˜ëŠ” ì¸ê³µì§€ëŠ¥ ì†Œí”„íŠ¸ì›¨ì–´ìž…ë‹ˆë‹¤.
+BY ë‚˜ë™ë¹ˆ(êµì›ëŒ€), ìž¥ìŠ¹í›ˆ(êµì›ëŒ€), í•œì§€ì„­(ì¶©ë¶ëŒ€), ê¹€ì—°ìš°(ì¶©ë¶ëŒ€), ëª…í‰ìœ¤(êµí†µëŒ€)
 
-### ½Ã½ºÅÛ ±¸¼ºµµ
+### ì‹œìŠ¤í…œ êµ¬ì„±ë„
 ![image](https://user-images.githubusercontent.com/16822641/44393019-8881e580-a56e-11e8-8c08-f72eb87f1016.png)
 
 ### Demo Web Site
 ![image](https://user-images.githubusercontent.com/16822641/44393034-933c7a80-a56e-11e8-9678-a3a088e7d23f.png)
 
-### Âü°í ¹®Çå
-* [±â»óÃ» Àü±¹ ±â¿Â ¹× °­¼ö·®](https://data.kma.go.kr/climate/StatisticsDivision/selectStatisticsDivision.do?pgmNo=158) : ±â»óÃ» Á¤º¸¸¦ Åä´ë·Î Ã¤¼Ò °¡°Ý¿¡ ¿µÇâÀ» ¹ÌÄ¡´Â ¿äÀÎÀ» ºÐ¼®ÇÏ±â À§ÇØ Âü°íÇÏ¿´½À´Ï´Ù.
-* [¿ùº° ¹èÃß °¡°Ý](https://www.kamis.or.kr/customer/price/retail/period.do?action=monthly&yyyy=2018&period=10&countycode=&itemcategorycode=200&itemcode=211&kindcode=&productrankcode=&convert_kg_yn=N) : ½ÇÁúÀûÀÎ ±¹³» ¿ùº° ¹èÃß °¡°ÝÀ» ºÐ¼®ÇÏ±â À§ÇØ Âü°íÇÏ¿´½À´Ï´Ù.
-* [½Ã°è¿­¼öÄ¡ÀÔ·Â ¼öÄ¡¿¹Ãø ¸ðµ¨ ·¹½ÃÇÇ](https://tykimos.github.io/2017/09/09/Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe/) : ½Ã°è¿­(Time-Series Analysis) ¿¹Ãø ¸ðµ¨ ÇÐ½ÀÀÚ·á·Î Âü°íÇÏ¿´½À´Ï´Ù.
+### ì°¸ê³  ë¬¸í—Œ
+* [ê¸°ìƒì²­ ì „êµ­ ê¸°ì˜¨ ë° ê°•ìˆ˜ëŸ‰](https://data.kma.go.kr/climate/StatisticsDivision/selectStatisticsDivision.do?pgmNo=158) : ê¸°ìƒì²­ ì •ë³´ë¥¼ í† ëŒ€ë¡œ ì±„ì†Œ ê°€ê²©ì— ì˜í–¥ì„ ë¯¸ì¹˜ëŠ” ìš”ì¸ì„ ë¶„ì„í•˜ê¸° ìœ„í•´ ì°¸ê³ í•˜ì˜€ìŠµë‹ˆë‹¤.
+* [ì›”ë³„ ë°°ì¶” ê°€ê²©](https://www.kamis.or.kr/customer/price/retail/period.do?action=monthly&yyyy=2018&period=10&countycode=&itemcategorycode=200&itemcode=211&kindcode=&productrankcode=&convert_kg_yn=N) : ì‹¤ì§ˆì ì¸ êµ­ë‚´ ì›”ë³„ ë°°ì¶” ê°€ê²©ì„ ë¶„ì„í•˜ê¸° ìœ„í•´ ì°¸ê³ í•˜ì˜€ìŠµë‹ˆë‹¤.
+* [ì‹œê³„ì—´ìˆ˜ì¹˜ìž…ë ¥ ìˆ˜ì¹˜ì˜ˆì¸¡ ëª¨ë¸ ë ˆì‹œí”¼](https://tykimos.github.io/2017/09/09/Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe/) : ì‹œê³„ì—´(Time-Series Analysis) ì˜ˆì¸¡ ëª¨ë¸ í•™ìŠµìžë£Œë¡œ ì°¸ê³ í•˜ì˜€ìŠµë‹ˆë‹¤.
 
-### ¼­¹ö ½ÇÇà ¸í·É¾î
+### ì„œë²„ ì‹¤í–‰ ëª…ë ¹ì–´
 ```
-# ±ê Çãºê¿¡¼­ ¼Ò½ºÄÚµå¸¦ ´Ù¿î·Îµå ¹Þ½À´Ï´Ù.
+# ê¹ƒ í—ˆë¸Œì—ì„œ ì†ŒìŠ¤ì½”ë“œë¥¼ ë‹¤ìš´ë¡œë“œ ë°›ìŠµë‹ˆë‹¤.
 git clone https://github.com/ndb796/Vegita.git
 
-# ¹ÞÀº ÇÁ·ÎÁ§Æ® Æú´õ·Î ÀÌµ¿ÇÕ´Ï´Ù.
+# ë°›ì€ í”„ë¡œì íŠ¸ í´ë”ë¡œ ì´ë™í•©ë‹ˆë‹¤.
 cd Vegita
 
-# ÇÃ¶ó½ºÅ© À¥ ¼­¹ö Æú´õ·Î ÀÌµ¿ÇÕ´Ï´Ù.
+# í”Œë¼ìŠ¤í¬ ì›¹ ì„œë²„ í´ë”ë¡œ ì´ë™í•©ë‹ˆë‹¤.
 cd "Flask Web Server"
 
-# À¥ ¼­¹ö¸¦ ½ÇÇàÇÕ´Ï´Ù.
+# ì›¹ ì„œë²„ë¥¼ ì‹¤í–‰í•©ë‹ˆë‹¤.
 python server.py
 ```
 
-### ÆÄÀÌ½ã µ¥ÀÌÅÍ ÇÐ½À ¸ðµ¨ »ý¼º ¸í·É¾î
+### íŒŒì´ì¬ ë°ì´í„° í•™ìŠµ ëª¨ë¸ ìƒì„± ëª…ë ¹ì–´
 ```
-# ÇÁ·ÎÁ§Æ® Æú´õ¿¡¼­ ÆÄÀÌ½ã Æú´õ·Î ÀÌµ¿ÇÕ´Ï´Ù.
+# í”„ë¡œì íŠ¸ í´ë”ì—ì„œ íŒŒì´ì¬ í´ë”ë¡œ ì´ë™í•©ë‹ˆë‹¤.
 cd "Python Software"
 
-# ¿¢¼¿(Excel) ÆÄÀÏ·Î ÇÐ½ÀÀ» ¼öÇàÇÕ´Ï´Ù.
+# ì—‘ì…€(Excel) íŒŒì¼ë¡œ í•™ìŠµì„ ìˆ˜í–‰í•©ë‹ˆë‹¤.
 python offline.py
 
-# (¿É¼Ç) ÇÐ½ÀµÈ µ¥ÀÌÅÍ¸¦ È®ÀÎÇÕ´Ï´Ù.
+# (ì˜µì…˜) í•™ìŠµëœ ë°ì´í„°ë¥¼ í™•ì¸í•©ë‹ˆë‹¤.
 python "predict test.py"
->> Æò±Õ ¿Âµµ: -2.7
->> ÃÖÀú ¿Âµµ: -6.6
->> ÃÖ°í ¿Âµµ: 2.0
->> °­¼ö·®:  0.1
+>> í‰ê·  ì˜¨ë„: -2.7
+>> ìµœì € ì˜¨ë„: -6.6
+>> ìµœê³  ì˜¨ë„: 2.0
+>> ê°•ìˆ˜ëŸ‰:  0.1
 [2000.2086]
 
-# ÀÌÈÄ¿¡ »ý¼ºµÈ ¸ðµ¨ ÆÄÀÏÀ» À¥ ¼­¹öÀÇ model Æú´õ¿¡ ºÙ¿©³Ö±â ÇÏ¸é Àû¿ëµË´Ï´Ù.
+# ì´í›„ì— ìƒì„±ëœ ëª¨ë¸ íŒŒì¼ì„ ì›¹ ì„œë²„ì˜ model í´ë”ì— ë¶™ì—¬ë„£ê¸° í•˜ë©´ ì ìš©ë©ë‹ˆë‹¤.
 ```
